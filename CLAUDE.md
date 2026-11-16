@@ -64,6 +64,12 @@ assets/cards/full assets/cards/thumb assets/videos
 5. Pop-up with arrows and video fallback.
 6. Check desktop, tablet and phone widths.
 
+## Publishing (live since 2026-11-15)
+- Live at https://moonlit-arcana.github.io/ — GitHub Pages from `main` of `moonlit-arcana/moonlit-arcana.github.io` (organization repo, public; Pages publishes automatically on push, ~30–60 s).
+- Repo root = this `tarot-site` folder. `source-art/` and `reference/` are git-ignored and must stay local.
+- Git is at `C:\Program Files\Git\cmd\git.exe` (may not be on PATH in Claude's shell). Commits use the owner's GitHub username and noreply address (set in this repo's local git config). Sign-in is cached by Git Credential Manager; if a push ever needs sign-in again, run it in the app's Terminal panel, since Claude's shell can't show the login window.
+- To update: edit → check locally → commit → push. Visitors' browsers may keep old CSS/JS for a while after an update; consider adding version query strings to `index.html` links for bigger releases.
+
 ## Status (prototype 1, 2026-11-09)
 - All six plan steps done and checked at 1440×900, 768×1024 and 375×812, in EN and 繁中.
 - Frame top medallion: Majors show their numeral; Minors show a pictorial element glyph — flame, water drop, wind, leaf (`elementGlyph()` in `js/components/frame.js`; owner chose these over the alchemical triangles, which are kept as `style: "alchemical"`; comparison in `reference/glyph-compare.html`).
