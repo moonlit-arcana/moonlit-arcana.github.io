@@ -1,0 +1,322 @@
+{
+  "status": "original",
+  "note": "Written for this site in our own words, using the Eldritch Veil Tarot guidebook (EternalAteliers) and traditional tarot meanings as reference. No guidebook text is copied. Fields per language: up/rev (keywords), upText/revText (short readings), question (a reflection prompt).",
+  "cards": {
+    "major-00-fool": {
+      "en": { "up": ["Beginnings", "Curiosity", "Leap of faith"], "rev": ["Recklessness", "Hesitation", "Naivety"], "upText": "A road opens with no map attached. Trust your curiosity and set out lightly; the path tends to appear once you start walking.", "revText": "A leap without looking can become a fall. Enjoy the freedom, but check the ground beneath your feet.", "question": "Where would a curious first step take me?" },
+      "zh-Hant": { "up": ["新的開始", "好奇", "信念之躍"], "rev": ["魯莽", "猶豫", "天真"], "upText": "沒有地圖，路一樣在前方展開。跟著好奇心，輕裝上路吧——走著走著，路自然會出現。", "revText": "看都不看就往下跳，很可能摔個正著。自由很好，但先看清楚腳下踩的是什麼。", "question": "如果順著好奇心踏出第一步，我會走到哪裡？" }
+    },
+    "major-01-magician": {
+      "en": { "up": ["Willpower", "Skill", "Manifestation"], "rev": ["Manipulation", "Scattered effort", "Untapped talent"], "upText": "Cup, blade, coin and wand all lie within the Magician's reach. This is a moment to focus your will and make something real.", "revText": "Talent without focus scatters, and charm can be used to mislead. Make sure your skills are serving an honest aim.", "question": "What do I already have that I'm not using?" },
+      "zh-Hant": { "up": ["意志", "技藝", "顯化"], "rev": ["操弄", "力量分散", "未發揮的才能"], "upText": "聖杯、利刃、錢幣、權杖，全都在魔術師伸手可及之處。現在正是集中心力、把想法化為現實的時候。", "revText": "才華不夠專注，就容易四處分散；魅力用錯了地方，也可能變成誤導。想想你的本事，是不是用在真誠的目標上。", "question": "有什麼是我早就擁有、卻一直沒用上的？" }
+    },
+    "major-02-high-priestess": {
+      "en": { "up": ["Intuition", "Mystery", "Inner voice"], "rev": ["Secrets", "Ignored instincts", "Disconnection"], "upText": "She sits between the pillars, keeper of what is sensed rather than said. Trust the quiet knowing beneath your thoughts.", "revText": "Something is being kept hidden, perhaps from yourself. If a quiet hunch keeps returning, it deserves a hearing.", "question": "What is my intuition quietly telling me?" },
+      "zh-Hant": { "up": ["直覺", "神秘", "內在聲音"], "rev": ["秘密", "忽視直覺", "疏離"], "upText": "她坐在兩根石柱之間，守著那些只能意會、無法言傳的事。相信思緒底下那份安靜的直覺。", "revText": "有些事被藏了起來，也許連你自己都沒發現。如果某個預感一再冒出來，就好好聽聽它想說什麼。", "question": "我的直覺，正悄悄告訴我什麼？" }
+    },
+    "major-03-empress": {
+      "en": { "up": ["Abundance", "Nurture", "Creativity"], "rev": ["Depletion", "Creative block", "Neglect"], "upText": "Everything around her is in bloom. This is a season of abundance, comfort and creativity; pour care into what you love and watch it flourish.", "revText": "Creativity stalls when the garden is neglected, and the gardener is part of the garden. Tend to your own needs and let someone care for you for a change.", "question": "What would I like to see grow?" },
+      "zh-Hant": { "up": ["豐饒", "滋養", "創造力"], "rev": ["耗竭", "創作停滯", "疏於照顧"], "upText": "她身邊的一切都在盛開。這是豐盛、舒適又充滿創造力的季節；用心照顧你所愛的，看著它一天天茁壯。", "revText": "花園沒人照料，創造力也會跟著枯萎——別忘了，園丁自己也需要照顧。先顧好自己的需要，也試著讓別人照顧你一次。", "question": "我最希望看見什麼成長茁壯？" }
+    },
+    "major-04-emperor": {
+      "en": { "up": ["Structure", "Authority", "Stability"], "rev": ["Rigidity", "Control", "Domination"], "upText": "Seated on his stone throne, the Emperor brings order to chaos. Take charge, lay firm foundations and lead with steady authority.", "revText": "Order pushed too far turns into control. Loosen your grip where rules have stopped protecting anyone.", "question": "What structure would make my life easier?" },
+      "zh-Hant": { "up": ["秩序", "權威", "穩定"], "rev": ["僵化", "控制", "專斷"], "upText": "皇帝端坐在石座上，為混亂帶來秩序。是時候扛起主導權，把根基打穩，用沉著的權威帶領大家。", "revText": "秩序一旦過了頭，就成了控制。如果規則已經保護不了任何人，就該鬆手了。", "question": "什麼樣的安排，能讓我的生活輕鬆一點？" }
+    },
+    "major-05-hierophant": {
+      "en": { "up": ["Tradition", "Teaching", "Belief"], "rev": ["Dogma", "Rebellion", "Questioning"], "upText": "The keeper of rites passes on what generations have learned. A mentor, a tradition or a shared practice can guide you now.", "revText": "You may be outgrowing a tradition or teacher. It is all right to find your own way, as long as you take the real lessons with you.", "question": "Which of the lessons I was taught still serve me?" },
+      "zh-Hant": { "up": ["傳統", "教導", "信仰"], "rev": ["教條", "叛逆", "質疑"], "upText": "教皇守護著儀式，也傳承著世世代代累積的智慧。此刻，一位導師、一份傳統或一群志同道合的人，都能為你指點方向。", "revText": "你也許已經走得比某個傳統或老師更遠了。走自己的路沒有關係，只要把真正學到的東西帶在身上。", "question": "過去學到的道理，哪些至今仍然受用？" }
+    },
+    "major-06-lovers": {
+      "en": { "up": ["Union", "Choice", "Harmony"], "rev": ["Imbalance", "Doubt", "Misalignment"], "upText": "Two hearts meet in a bond of trust. This card speaks of love, harmony and a choice made from the heart.", "revText": "Something feels out of tune between you, or within you. Talk about the difference openly before it quietly grows.", "question": "What do I value most in this connection?" },
+      "zh-Hant": { "up": ["結合", "抉擇", "和諧"], "rev": ["失衡", "疑慮", "價值分歧"], "upText": "兩顆心在信任中相遇。這張牌關乎愛、和諧，以及一個發自內心的選擇。", "revText": "你們之間——或你自己心裡——有什麼地方不太對勁。趁分歧還沒悄悄擴大，坦白聊一聊吧。", "question": "在這段關係裡，我最珍惜的是什麼？" }
+    },
+    "major-07-chariot": {
+      "en": { "up": ["Determination", "Victory", "Control"], "rev": ["Lost direction", "Aggression", "Obstacles"], "upText": "Two forces pull in different directions, yet the driver holds them on course. Determination and self-control carry you to victory.", "revText": "The horses are pulling apart and the chariot is going nowhere. Before pushing harder, decide which way you actually want to go.", "question": "Where do I truly want to go?" },
+      "zh-Hant": { "up": ["決心", "勝利", "掌控"], "rev": ["失去方向", "躁進", "阻礙"], "upText": "兩股力量各往一邊拉，駕車的人卻穩穩守住方向。憑著決心與自制，你會一路駛向勝利。", "revText": "馬兒各拉各的，戰車只能在原地打轉。與其更用力，不如先想清楚自己到底要往哪裡去。", "question": "我真正想去的地方是哪裡？" }
+    },
+    "major-08-strength": {
+      "en": { "up": ["Courage", "Patience", "Compassion"], "rev": ["Self-doubt", "Exhaustion", "Insecurity"], "upText": "Strength tames the wild beast with a gentle hand, not a fist. True power is quiet: courage, patience and compassion, including toward yourself.", "revText": "Doubt is whispering that you are not strong enough. Rest first; courage returns more easily to a body and mind that are cared for.", "question": "Where could I be gentler with myself?" },
+      "zh-Hant": { "up": ["勇氣", "耐心", "慈悲"], "rev": ["自我懷疑", "疲憊", "不安"], "upText": "馴服野獸靠的是溫柔的手，不是拳頭。真正的力量很安靜：勇氣、耐心和慈悲——對自己也是一樣。", "revText": "懷疑在耳邊說你不夠堅強。先好好休息吧；身心被照顧好了，勇氣自然會回來。", "question": "我可以在哪些地方，對自己溫柔一點？" }
+    },
+    "major-09-hermit": {
+      "en": { "up": ["Solitude", "Reflection", "Guidance"], "rev": ["Isolation", "Loneliness", "Withdrawal"], "upText": "The Hermit climbs alone with a lantern into the dark. Withdraw for a while, seek your own answers, and let your inner light guide you.", "revText": "Solitude has started to feel like loneliness. The lantern was meant to light your way back, too.", "question": "What would I hear if I gave myself some quiet?" },
+      "zh-Hant": { "up": ["獨處", "內省", "指引"], "rev": ["孤立", "寂寞", "退縮"], "upText": "隱士提著燈，獨自走進黑暗。暫時退開一步，自己去找答案，讓內心的光替你照路。", "revText": "獨處漸漸變成了寂寞。別忘了，那盞燈也能照亮你回來的路。", "question": "如果讓自己安靜下來，我會聽見什麼？" }
+    },
+    "major-10-wheel-of-fortune": {
+      "en": { "up": ["Cycles", "Fate", "Turning point"], "rev": ["Resistance", "Bad luck", "Breaking cycles"], "upText": "The great wheel turns, and fortune shifts with it. A turning point is here; good luck and new chances favour those ready to move.", "revText": "Luck seems to have turned against you for now. The wheel keeps moving, so ride out what you cannot change and act on what you can.", "question": "How can I move with the change instead of against it?" },
+      "zh-Hant": { "up": ["循環", "命運", "轉捩點"], "rev": ["抗拒改變", "時運不濟", "打破循環"], "upText": "命運之輪轉動，運勢也跟著改變。轉捩點已經到來，好運和新機會，總是留給準備好行動的人。", "revText": "這陣子運氣似乎跟你作對。但輪子不會停：改變不了的就先撐過去，能改變的就動手去做。", "question": "我要怎麼順著變化走，而不是跟它硬碰硬？" }
+    },
+    "major-11-justice": {
+      "en": { "up": ["Truth", "Fairness", "Cause and effect"], "rev": ["Bias", "Dishonesty", "Avoidance"], "upText": "Justice holds the sword of truth and the scales of balance. Facts come to light and actions meet their consequences; act with honesty and fairness.", "revText": "Something about this situation is unfair or not fully told. Seek the missing facts, and be honest about your own role.", "question": "What am I avoiding looking at honestly?" },
+      "zh-Hant": { "up": ["真相", "公正", "因果"], "rev": ["偏頗", "不誠實", "逃避責任"], "upText": "正義一手握著真理之劍，一手托著天秤。真相終會水落石出，每個行為也都有它的後果；誠實、公正地行事吧。", "revText": "這件事有些地方不公平，或是還沒說出全貌。把缺少的事實找出來，也老實面對自己在其中的角色。", "question": "有什麼是我一直不敢誠實面對的？" }
+    },
+    "major-12-hanged-man": {
+      "en": { "up": ["Surrender", "New perspective", "Pause"], "rev": ["Stalling", "Resistance", "Indecision"], "upText": "He hangs upside down, calm and willing. Let go of the urge to act for now; this pause is offering a view you could not see before.", "revText": "You have been suspended long enough. If the waiting no longer teaches you anything, it may be time to come down and act.", "question": "What do I see if I turn this upside down?" },
+      "zh-Hant": { "up": ["臣服", "新視角", "暫停"], "rev": ["停滯", "抗拒", "優柔寡斷"], "upText": "他倒吊著，卻平靜而甘願。先放下急著行動的衝動——這段停頓，正讓你看見從前看不到的角度。", "revText": "你已經吊得夠久了。如果等待再也教不了你什麼，或許該下來，開始行動了。", "question": "如果把這件事倒過來看，我會看到什麼？" }
+    },
+    "major-13-death": {
+      "en": { "up": ["Endings", "Transformation", "Release"], "rev": ["Clinging", "Stagnation", "Resisting change"], "upText": "This card rarely means a literal death; it marks transformation. Something is ending so that something new can begin.", "revText": "Holding on to what has already ended only stretches out the in-between. Grieve it, thank it, and let it go.", "question": "What has already ended that I'm still holding?" },
+      "zh-Hant": { "up": ["結束", "轉化", "放下"], "rev": ["執著", "停滯", "抗拒改變"], "upText": "這張牌很少代表真正的死亡，它講的是轉變。有些事正在結束，好讓新的事情能夠開始。", "revText": "死抓著已經結束的東西不放，只會讓過渡期拖得更長。為它難過、向它道謝，然後放手吧。", "question": "有什麼明明已經結束，我卻還緊抓著不放？" }
+    },
+    "major-14-temperance": {
+      "en": { "up": ["Balance", "Moderation", "Patience"], "rev": ["Excess", "Imbalance", "Haste"], "upText": "Temperance pours water between two cups without spilling a drop. Moderation, patience and the blending of opposites bring healing and calm.", "revText": "Too much of one thing and too little of another. Notice where you are overdoing it, and pour a little back.", "question": "Where am I swinging between extremes?" },
+      "zh-Hant": { "up": ["平衡", "節制", "耐心"], "rev": ["過度", "失衡", "急躁"], "upText": "節制把水從一只杯子倒進另一只，一滴也沒灑出來。適度、耐心，以及調和兩個極端，能帶來療癒與平靜。", "revText": "有些東西太多，有些又太少。看看自己在哪裡用力過度，再把一些倒回來。", "question": "我在哪些事情上，總是在兩個極端之間擺盪？" }
+    },
+    "major-15-devil": {
+      "en": { "up": ["Bondage", "Temptation", "Shadow self"], "rev": ["Release", "Breaking free", "Awareness"], "upText": "The Devil's chains are looser than they look. This card points to habits, temptations and fears that hold you only as long as you allow them to.", "revText": "The chain is slipping. Use this moment of freedom to change one real thing, so the old pattern can't simply return.", "question": "What keeps pulling me back, and why?" },
+      "zh-Hant": { "up": ["束縛", "誘惑", "陰影自我"], "rev": ["解脫", "掙脫", "覺察"], "upText": "惡魔的鎖鏈，其實比看起來鬆。這張牌說的是習慣、誘惑和恐懼——只要你不再允許，它們就困不住你。", "revText": "鎖鏈正在鬆脫。趁著這片刻的自由，實際改變一件事，別讓舊習慣輕易找上門來。", "question": "是什麼一直把我拉回原地？為什麼？" }
+    },
+    "major-16-tower": {
+      "en": { "up": ["Sudden change", "Upheaval", "Revelation"], "rev": ["Delayed collapse", "Fear of change", "Narrow escape"], "upText": "Lightning strikes and the tower falls. Sudden upheaval shatters false beliefs and unstable plans; painful as it is, it frees you to build on truer ground.", "revText": "Postponing a change that must happen only lets the pressure build. Start the repair now, while it is still your choice.", "question": "What have I been pretending is solid?" },
+      "zh-Hant": { "up": ["劇變", "動盪", "啟示"], "rev": ["延遲的崩塌", "害怕改變", "險中脫身"], "upText": "閃電劈下，高塔崩塌。突如其來的劇變，擊碎了錯誤的信念和不穩的計畫；雖然很痛，卻讓你有機會在更穩固的地基上重建。", "revText": "該來的改變一直往後拖，壓力只會越積越多。趁現在還能自己做決定，就開始修補吧。", "question": "有什麼東西，我一直假裝它很穩固？" }
+    },
+    "major-17-star": {
+      "en": { "up": ["Hope", "Renewal", "Calm"], "rev": ["Discouragement", "Lost faith", "Disconnection"], "upText": "After the storm, a quiet light shines over the water. The Star brings hope, healing and renewed faith that things can get better.", "revText": "The light hasn't gone out; clouds have simply covered it for a while. Reconnect with one thing that used to inspire you.", "question": "What gives me hope when things are dark?" },
+      "zh-Hant": { "up": ["希望", "復原", "平靜"], "rev": ["氣餒", "失去信念", "疏離"], "upText": "暴風雨過後，一道寧靜的光灑在水面上。星星帶來希望與療癒，讓人重新相信，一切都會好起來。", "revText": "光並沒有熄滅，只是暫時被雲遮住了。去找回一件曾經讓你充滿靈感的事吧。", "question": "在最黑暗的時候，是什麼讓我還抱著希望？" }
+    },
+    "major-18-moon": {
+      "en": { "up": ["Intuition", "Illusion", "Dreams"], "rev": ["Clarity returning", "Released fear", "Confusion"], "upText": "Under the moon, the path is real but the shapes around it are not what they seem. Trust your intuition, and be wary of illusions and half-truths.", "revText": "The tide of confusion is turning. Fears that seemed huge in the dark are shrinking back to their real size.", "question": "Which of my fears are based on fact?" },
+      "zh-Hant": { "up": ["直覺", "幻象", "夢境"], "rev": ["重拾清明", "釋放恐懼", "困惑"], "upText": "月光下，路是真的，但路旁的影子卻不是它們看起來的樣子。相信你的直覺，也要小心幻象和半真半假的說法。", "revText": "困惑的潮水正在退去。那些在黑暗中顯得巨大的恐懼，正慢慢縮回原本的大小。", "question": "我的恐懼裡，有哪些真的有事實根據？" }
+    },
+    "major-19-sun": {
+      "en": { "up": ["Joy", "Success", "Vitality"], "rev": ["Passing gloom", "Pressure", "Delay"], "upText": "Light reaches even the deepest places. Success, warmth and a childlike joy shine on whatever you turn toward now.", "revText": "A cloud has passed in front of the sun, but not for long. Let go of perfect happiness and let ordinary good things count.", "question": "What made me smile recently?" },
+      "zh-Hant": { "up": ["喜悅", "成功", "活力"], "rev": ["短暫的陰霾", "壓力", "延遲"], "upText": "陽光照進了最深的角落。成功、溫暖，還有孩子般的快樂，正照耀著你此刻面對的一切。", "revText": "一片雲遮住了太陽，但不會太久。別再追求完美的幸福，讓平凡的小確幸也算數吧。", "question": "最近有什麼事，讓我忍不住笑了？" }
+    },
+    "major-20-judgement": {
+      "en": { "up": ["Awakening", "Reckoning", "Renewal"], "rev": ["Self-doubt", "Refusing the call", "Regret"], "upText": "A trumpet sounds and what was sleeping rises. This is a time of awakening: reflect on the past, forgive it, and step into a renewed life.", "revText": "You hear the call but keep pretending you don't. Doubt and old regrets are easier to face once you stop running from them.", "question": "What is calling me to rise?" },
+      "zh-Hant": { "up": ["覺醒", "清算", "重生"], "rev": ["自我懷疑", "拒絕召喚", "悔恨"], "upText": "號角響起，沉睡的一切甦醒過來。這是覺醒的時刻：回顧過去、原諒過去，然後迎向全新的人生。", "revText": "你聽見了呼喚，卻一直假裝沒聽到。其實只要不再逃避，那些懷疑和舊日的遺憾，反而沒那麼難面對。", "question": "是什麼在呼喚我站起來？" }
+    },
+    "major-21-world": {
+      "en": { "up": ["Completion", "Wholeness", "Fulfilment"], "rev": ["Unfinished business", "Delay", "Lack of closure"], "upText": "A cycle comes full circle. Achievement, wholeness and a sense of belonging mark the end of a long journey, and the dance goes on.", "revText": "You are almost there, but something is still unfinished. Closing it properly will make the next journey lighter.", "question": "What have I completed that I haven't celebrated yet?" },
+      "zh-Hant": { "up": ["完成", "圓滿", "實現"], "rev": ["未竟之事", "延宕", "未能了結"], "upText": "一個循環走到了圓滿。成就、完整與歸屬感，為這段漫長的旅程畫下句點——而舞，還會繼續跳下去。", "revText": "就差一步了，但還有件事沒完成。好好收尾，下一段旅程才會走得更輕鬆。", "question": "有什麼事我已經完成了，卻還沒好好慶祝？" }
+    },
+
+    "wands-01-ace": {
+      "en": { "up": ["Inspiration", "Potential", "New venture"], "rev": ["Delays", "Lack of direction", "False start"], "upText": "A living, sprouting wand is offered: a burst of inspiration and the energy to start something new. Act while the fire is fresh.", "revText": "The spark is there but won't catch: delays, doubts or no clear direction. Work out what you actually want before trying to light it again.", "question": "What idea keeps coming back to me?" },
+      "zh-Hant": { "up": ["靈感", "潛能", "新的開始"], "rev": ["延誤", "缺乏方向", "起步失利"], "upText": "一根冒出新芽的權杖遞到你面前：一股靈感，加上開創新事物的衝勁。趁火還旺，趕快行動。", "revText": "火花還在，卻怎麼也點不著：可能是拖延、遲疑，或方向不明。重新點火之前，先想清楚自己到底要什麼。", "question": "有哪個點子，一直在我腦中揮之不去？" }
+    },
+    "wands-02-two": {
+      "en": { "up": ["Planning", "Vision", "Decisions"], "rev": ["Fear of the unknown", "Playing safe", "Hesitation"], "upText": "With the world in your hand, you look out from familiar walls toward distant lands. It is time to plan boldly and decide where to go next.", "revText": "Staying where it's safe is tempting, but the comfort is shrinking. Indecision has a cost too.", "question": "Which direction deserves a closer look?" },
+      "zh-Hant": { "up": ["規劃", "遠見", "抉擇"], "rev": ["害怕未知", "求穩", "猶豫"], "upText": "手裡握著整個世界，你從熟悉的城牆上望向遠方。是時候大膽規劃，決定下一步要往哪裡走了。", "revText": "待在安全的地方確實誘人，但那份安穩正一點一點變小。遲遲不做決定，也是要付出代價的。", "question": "哪個方向值得我好好探索？" }
+    },
+    "wands-03-three": {
+      "en": { "up": ["Expansion", "Foresight", "Progress"], "rev": ["Setbacks", "Delays", "Limited horizon"], "upText": "Your ships have set sail. Early plans are bearing fruit, and the view from here shows how much further you could go.", "revText": "The ships are late or the horizon feels too narrow. Setbacks now are signals to rethink the route, not the destination.", "question": "What has to happen for my plans to reach further?" },
+      "zh-Hant": { "up": ["拓展", "遠見", "進展"], "rev": ["挫折", "延遲", "眼界受限"], "upText": "你的船已經出航。先前的計畫開始有了成果，從這裡望出去，你會發現自己還能走得更遠。", "revText": "船遲遲沒有回來，或眼前的視野顯得太窄。此刻的挫折是在提醒你換條路線，而不是放棄目的地。", "question": "要讓計畫走得更遠，還需要些什麼？" }
+    },
+    "wands-04-four": {
+      "en": { "up": ["Celebration", "Home", "Belonging"], "rev": ["Tension at home", "Transition", "Feeling left out"], "upText": "A homecoming, a festival, a happy foundation. Enjoy this moment of peace and togetherness with the people who helped you build it.", "revText": "The celebration feels strained, or someone is missing from it. Tension at home or a period of change may be unsettling things.", "question": "Who would I like to celebrate with?" },
+      "zh-Hant": { "up": ["慶祝", "家園", "歸屬"], "rev": ["家中不和", "過渡期", "被冷落"], "upText": "回家、慶典、幸福的基礎。和一路幫你打拚的人一起，好好享受這段平靜又團聚的時光。", "revText": "慶祝的氣氛有點勉強，或是少了某個人。家裡的摩擦或正在經歷的變動，可能讓大家都有些不安。", "question": "我想和誰一起慶祝？" }
+    },
+    "wands-05-five": {
+      "en": { "up": ["Conflict", "Competition", "Friction"], "rev": ["Avoidance", "Resolution", "Truce"], "upText": "Wands clash in a noisy scramble. Competition and disagreement are in the air; the energy can be creative as long as no one has to lose.", "revText": "The fighting is winding down, or being swept under the rug. Find out which it is before calling it peace.", "question": "What is this disagreement really trying to improve?" },
+      "zh-Hant": { "up": ["衝突", "競爭", "摩擦"], "rev": ["逃避", "化解", "休戰"], "upText": "權杖你來我往，吵吵鬧鬧。到處都是競爭和意見分歧；只要沒有人非輸不可，這股能量也可以很有創意。", "revText": "爭吵正在平息——或者只是被掩蓋了起來。在說「沒事了」之前，先弄清楚是哪一種。", "question": "這場爭執，其實是想把什麼變得更好？" }
+    },
+    "wands-06-six": {
+      "en": { "up": ["Victory", "Recognition", "Confidence"], "rev": ["Need for approval", "Pride", "Self-doubt"], "upText": "The rider returns crowned with laurels as the crowd cheers. Success and public recognition are yours; enjoy the confidence they bring.", "revText": "The applause is fading, or you depend on it too much. Pride before a fall and doubt after one both come from looking outside yourself for worth.", "question": "Who helped me get here?" },
+      "zh-Hant": { "up": ["勝利", "肯定", "自信"], "rev": ["渴求認同", "驕傲", "自我懷疑"], "upText": "騎士戴著桂冠凱旋歸來，群眾為他歡呼。成功和眾人的肯定都屬於你，好好享受隨之而來的自信吧。", "revText": "掌聲漸漸變小，或是你太依賴它了。得意之後的跌落、跌倒之後的自我懷疑，都來自向外尋找自己的價值。", "question": "是誰幫助我走到今天？" }
+    },
+    "wands-07-seven": {
+      "en": { "up": ["Courage", "Defence", "Perseverance"], "rev": ["Exhaustion", "Giving in", "Overwhelm"], "upText": "On high ground, you hold off challengers from below. Your position is worth defending, and the advantage is yours if you stand firm.", "revText": "The challengers keep coming and your arms are tiring. It may be time to pick your battles, or to step back without shame.", "question": "What am I truly defending here?" },
+      "zh-Hant": { "up": ["勇氣", "防守", "堅持"], "rev": ["筋疲力竭", "屈服", "不堪負荷"], "upText": "你站在高處，抵擋從下方湧上來的挑戰者。你的立場值得捍衛，只要站穩腳步，優勢就在你這邊。", "revText": "挑戰者一個接一個來，你的手臂也越來越痠。也許該挑重要的仗來打，或是坦然地退一步。", "question": "我在這裡真正想守護的是什麼？" }
+    },
+    "wands-08-eight": {
+      "en": { "up": ["Momentum", "Swift action", "News"], "rev": ["Haste", "Delays", "Mixed signals"], "upText": "Eight wands fly through the air toward their target. Events speed up, news arrives and obstacles fall away; move with the rush.", "revText": "The wands seem stuck in mid-air: delays, frustration, or plans rushed so fast they miss their mark.", "question": "What message have I been meaning to send?" },
+      "zh-Hant": { "up": ["動能", "迅速行動", "消息"], "rev": ["操之過急", "延誤", "訊息混亂"], "upText": "八根權杖劃過天空，直奔目標。事情加速進展、消息接連傳來、阻礙一一排除；順著這股勢頭往前衝吧。", "revText": "權杖像是卡在半空中：延誤、挫折，或是事情推得太急，反而偏離了目標。", "question": "有什麼話，是我一直想說出口的？" }
+    },
+    "wands-09-nine": {
+      "en": { "up": ["Resilience", "Persistence", "Vigilance"], "rev": ["Defensiveness", "Fatigue", "Suspicion"], "upText": "Wounded but unbowed, the guardian keeps watch at the last line. You have come through a lot; one more push and you are through.", "revText": "Battle fatigue is setting in, and every shadow looks like an enemy. Lower your guard enough to let someone help.", "question": "Who could help me hold the line?" },
+      "zh-Hant": { "up": ["韌性", "堅持", "警覺"], "rev": ["防衛心", "疲憊", "多疑"], "upText": "滿身是傷卻沒有倒下，守衛仍在最後一道防線上站崗。你已經撐過了這麼多，再加把勁，就能突破難關。", "revText": "長期作戰的疲憊開始浮現，連影子都像敵人。稍微放下戒心，讓別人拉你一把。", "question": "有誰能和我一起守住這條防線？" }
+    },
+    "wands-10-ten": {
+      "en": { "up": ["Burden", "Responsibility", "Overload"], "rev": ["Letting go", "Delegation", "Collapse"], "upText": "Bent under a bundle of ten wands, the traveller can barely see the road. Success has brought heavy responsibilities, and the load is too much for one person.", "revText": "Something has to give. Learn to say no and hand off what isn't yours, or risk collapsing under the weight.", "question": "Which of these burdens was never mine to carry?" },
+      "zh-Hant": { "up": ["重擔", "責任", "負荷過重"], "rev": ["放下", "分擔", "崩潰"], "upText": "旅人被十根權杖壓得彎下了腰，幾乎看不見前方的路。成功帶來了沉重的責任，這副擔子一個人根本扛不動。", "revText": "總得放掉一些東西。學會說不，把不屬於你的交出去，否則遲早會被壓垮。", "question": "這些重擔裡，有哪些本來就不該由我來扛？" }
+    },
+    "wands-11-page": {
+      "en": { "up": ["Enthusiasm", "Exploration", "Discovery"], "rev": ["Restlessness", "Distraction", "Hasty starts"], "upText": "The young messenger gazes at a sprouting wand, full of curiosity. Fresh ideas, exciting news and a free spirit ready to explore.", "revText": "Lots of ideas, little follow-through. Restlessness or disappointing news may be scattering your enthusiasm.", "question": "What would I try if no one were watching?" },
+      "zh-Hant": { "up": ["熱忱", "探索", "發現"], "rev": ["浮躁", "分心", "草率開始"], "upText": "年輕的信使盯著冒出新芽的權杖，滿臉好奇。新點子、好消息，還有一顆渴望探索的自由心靈。", "revText": "點子一大堆，真正去做的卻很少。心浮氣躁或令人失望的消息，可能正在澆熄你的熱情。", "question": "如果沒有人在看，我會想嘗試什麼？" }
+    },
+    "wands-12-knight": {
+      "en": { "up": ["Action", "Adventure", "Boldness"], "rev": ["Impulsiveness", "Recklessness", "Burnout"], "upText": "Charging forward on a fiery steed, the knight lives for adventure. Bold action, passion and a hunger for the new drive you now.", "revText": "All gallop and no destination. Recklessness, a short temper or a sudden loss of interest can leave things half done.", "question": "Where is my enthusiasm leading me?" },
+      "zh-Hant": { "up": ["行動", "冒險", "大膽"], "rev": ["衝動", "魯莽", "燃燒殆盡"], "upText": "騎著烈火般的駿馬一路衝鋒，騎士天生為冒險而活。大膽的行動、滿腔的熱情，還有對新鮮事的渴望，正推著你向前。", "revText": "一路狂奔，卻不知道要去哪裡。魯莽、脾氣急，或是三分鐘熱度，都可能讓事情做到一半就停擺。", "question": "我的熱情正把我帶往哪裡？" }
+    },
+    "wands-13-queen": {
+      "en": { "up": ["Confidence", "Warmth", "Determination"], "rev": ["Insecurity", "Jealousy", "Burnout"], "upText": "The Queen of Wands is radiant, independent and magnetic. Own your warmth, your ambition and the space you are allowed to take up.", "revText": "Fire turned inward becomes jealousy, insecurity or burnout. Rest, and stop measuring your light against anyone else's.", "question": "Where could my confidence encourage someone else?" },
+      "zh-Hant": { "up": ["自信", "溫暖", "果決"], "rev": ["不安", "嫉妒", "心力交瘁"], "upText": "權杖皇后耀眼、獨立，又散發著迷人的魅力。大方展現你的溫暖和企圖心，也別害怕站上屬於你的位置。", "revText": "火往內燒，就會變成嫉妒、不安或倦怠。好好休息，別再拿自己的光和別人比。", "question": "我的自信，能在哪裡為別人打氣？" }
+    },
+    "wands-14-king": {
+      "en": { "up": ["Leadership", "Vision", "Inspiration"], "rev": ["Arrogance", "Impulsiveness", "High expectations"], "upText": "A natural leader with a vision bigger than himself. The King of Wands inspires others to follow and turns big ideas into reality.", "revText": "Vision can harden into arrogance. Beware of impulsive decisions or expecting too much of the people around you.", "question": "What vision am I willing to stand behind?" },
+      "zh-Hant": { "up": ["領導", "遠見", "鼓舞"], "rev": ["傲慢", "衝動", "苛求"], "upText": "天生的領袖，眼光遠大，心裡裝的不只有自己。權杖國王能激勵眾人追隨，把遠大的構想變成現實。", "revText": "遠見一旦僵化，就成了傲慢。小心一時衝動做決定，或對身邊的人要求太多。", "question": "有什麼願景，是我願意挺身支持的？" }
+    },
+
+    "cups-01-ace": {
+      "en": { "up": ["Love", "New feelings", "Compassion"], "rev": ["Blocked emotions", "Emptiness", "Holding back"], "upText": "A cup overflows: love, intuition and emotional renewal are pouring in. Open your heart to receive them.", "revText": "The cup is tipped or sealed. Feelings may be bottled up; give them a safe place to come out.", "question": "What does my heart want to receive?" },
+      "zh-Hant": { "up": ["愛", "新的情感", "慈悲"], "rev": ["情感受阻", "空虛", "壓抑"], "upText": "聖杯滿溢而出：愛、直覺和情感上的新生，正源源不絕地湧進來。敞開心胸接受吧。", "revText": "杯子翻倒了，或是被封了起來。也許你把情緒都悶在心裡；給它們一個安全的出口。", "question": "我的心，渴望接受什麼？" }
+    },
+    "cups-02-two": {
+      "en": { "up": ["Partnership", "Attraction", "Mutual respect"], "rev": ["Imbalance", "Broken trust", "Miscommunication"], "upText": "Two cups are raised to each other as in a vow. A meeting of equals: love, friendship or partnership built on mutual respect.", "revText": "One cup is fuller than the other. Uneven effort or unspoken expectations are straining the bond.", "question": "What do I bring to this connection, and what do I receive?" },
+      "zh-Hant": { "up": ["伴侶關係", "吸引", "相互尊重"], "rev": ["失衡", "信任破裂", "溝通不良"], "upText": "兩只聖杯彼此舉起，像在立下誓約。這是一場對等的相遇：建立在互相尊重之上的愛情、友情或合作關係。", "revText": "一只杯子比另一只滿。付出不對等，或是沒說出口的期待，正讓這段關係越來越緊繃。", "question": "在這段關係裡，我給了什麼，又得到了什麼？" }
+    },
+    "cups-03-three": {
+      "en": { "up": ["Friendship", "Celebration", "Community"], "rev": ["Overindulgence", "Gossip", "Isolation"], "upText": "Three friends raise their cups together. Joy multiplies when it is shared; lean on your circle and celebrate with them.", "revText": "Too much of a good time, or a group that has turned cliquey. Notice where your social life is draining you.", "question": "Who makes me feel I belong?" },
+      "zh-Hant": { "up": ["友誼", "慶祝", "社群"], "rev": ["放縱", "流言", "孤立"], "upText": "三個好朋友一起舉杯。快樂分享出去就會加倍；靠著身邊的人，和他們一起慶祝吧。", "revText": "玩得太過火，或是小圈圈變得排外。留意一下，社交生活在哪些地方讓你感到疲憊。", "question": "和誰在一起，會讓我覺得自己屬於這裡？" }
+    },
+    "cups-04-four": {
+      "en": { "up": ["Apathy", "Contemplation", "Discontent"], "rev": ["Renewed interest", "Acceptance", "Moving on"], "upText": "Three cups sit untouched while a fourth is offered from the mist. Boredom or withdrawal may be hiding a chance right in front of you.", "revText": "You're lifting your head again. After a time of turning inward, you're ready to accept what is offered.", "question": "What am I missing because I've stopped looking?" },
+      "zh-Hant": { "up": ["冷漠", "沉思", "不滿"], "rev": ["重燃興趣", "接受", "向前走"], "upText": "三只杯子擺著沒碰，第四只從霧裡遞了過來。無聊或封閉的心情，可能讓你錯過了眼前的機會。", "revText": "你又重新抬起頭來了。經過一段把自己關起來的日子，你已經準備好接受別人遞來的邀請。", "question": "因為不再留意，我錯過了什麼？" }
+    },
+    "cups-05-five": {
+      "en": { "up": ["Loss", "Grief", "Regret"], "rev": ["Acceptance", "Moving on", "Forgiveness"], "upText": "Three cups lie spilled, but two still stand behind you. Grief is real and deserves its time; just don't forget what remains.", "revText": "You are turning around to see the cups still standing. Forgiveness and acceptance are opening the way forward.", "question": "What is still here for me?" },
+      "zh-Hant": { "up": ["失落", "悲傷", "悔恨"], "rev": ["接受", "繼續前行", "寬恕"], "upText": "三只杯子打翻在地，但身後還有兩只好好地立著。悲傷是真的，需要時間慢慢消化；只是別忘了，還有東西留了下來。", "revText": "你正轉過身，看見那些依然立著的杯子。原諒與接受，正為你打開往前走的路。", "question": "有什麼，依然留在我身邊？" }
+    },
+    "cups-06-six": {
+      "en": { "up": ["Nostalgia", "Childhood", "Kindness"], "rev": ["Living in the past", "Rose-tinted memories", "Moving forward"], "upText": "Cups filled with flowers, gifts from a more innocent time. Memories, old friends and simple kindness bring comfort now.", "revText": "The past looks rosier from here than it was. Take its lessons with you, but live in the present.", "question": "What memory still teaches me something?" },
+      "zh-Hant": { "up": ["懷舊", "童年", "善意"], "rev": ["活在過去", "美化回憶", "向前看"], "upText": "插滿花朵的杯子，是來自純真年代的禮物。回憶、老朋友和單純的善意，此刻都能給你安慰。", "revText": "回頭看，過去總比當時美好。把學到的東西帶走，但要好好活在當下。", "question": "哪一段回憶，至今仍讓我學到東西？" }
+    },
+    "cups-07-seven": {
+      "en": { "up": ["Choices", "Fantasy", "Illusion"], "rev": ["Clarity", "Decision", "Reality check"], "upText": "Seven cups float in the clouds, each holding a different dream. Not every vision is what it seems; look closely before you reach.", "revText": "The mist is clearing and the options are narrowing. You are ready to choose something real.", "question": "Which dream would I still want if it came true tomorrow?" },
+      "zh-Hant": { "up": ["選擇", "幻想", "幻象"], "rev": ["清晰", "決斷", "面對現實"], "upText": "七只聖杯飄在雲端，各自裝著不同的夢。不是每個幻象都像表面上那麼美好；伸手之前，先看清楚。", "revText": "迷霧漸漸散去，選項也越來越少。你已經準備好，選一個真實可行的了。", "question": "如果明天就能實現，哪個夢想是我仍然想要的？" }
+    },
+    "cups-08-eight": {
+      "en": { "up": ["Walking away", "Seeking meaning", "Letting go"], "rev": ["Fear of leaving", "Stagnation", "Return"], "upText": "Leaving a row of stacked cups behind, a traveller heads toward the moonlit hills. What once satisfied no longer does; it's time to seek something deeper.", "revText": "You know something is missing, but leaving feels too risky. Staying out of fear is a choice too.", "question": "What am I searching for that I haven't found here?" },
+      "zh-Hant": { "up": ["離開", "尋找意義", "放下"], "rev": ["害怕離開", "停滯", "回頭"], "upText": "旅人把一排疊好的聖杯留在身後，走向月光下的山丘。曾經讓你滿足的，已經不夠了；是時候去尋找更深的意義。", "revText": "你知道少了些什麼，卻又覺得離開太冒險。但因為害怕而留下，其實也是一種選擇。", "question": "我在尋找的，是這裡給不了的什麼？" }
+    },
+    "cups-09-nine": {
+      "en": { "up": ["Contentment", "Wishes fulfilled", "Satisfaction"], "rev": ["Hollow success", "Greed", "Unmet desires"], "upText": "Often called the wish card. Comfort, pleasure and emotional satisfaction are within reach; let yourself enjoy them.", "revText": "Having everything you wanted can still feel empty. Ask what would truly satisfy you.", "question": "Which of my wishes has already come true?" },
+      "zh-Hant": { "up": ["心滿意足", "願望成真", "滿足"], "rev": ["空洞的成功", "貪婪", "未竟的渴望"], "upText": "這張牌常被稱為「願望牌」。舒適、享受和心裡的滿足，都已近在眼前；就讓自己好好享受吧。", "revText": "想要的都有了，心裡卻還是空空的。問問自己，什麼才能真正讓你滿足。", "question": "我有哪個願望，其實早就實現了？" }
+    },
+    "cups-10-ten": {
+      "en": { "up": ["Harmony", "Family", "Lasting happiness"], "rev": ["Disconnection", "Broken ideals", "Family tension"], "upText": "Ten cups arc like a rainbow over a joyful home. Love, harmony and the deep contentment of belonging.", "revText": "The picture-perfect family or relationship doesn't match reality. Honest conversations matter more than appearances.", "question": "Where do I feel most at home?" },
+      "zh-Hant": { "up": ["和諧", "家庭", "長久的幸福"], "rev": ["疏離", "理想破滅", "家庭不和"], "upText": "十只聖杯像一道彩虹，掛在幸福的家園上方。愛、和諧，以及找到歸屬時那份深深的滿足。", "revText": "理想中的完美家庭或關係，和現實對不上。真誠的對話，遠比表面上的和樂重要。", "question": "在哪裡，我最有家的感覺？" }
+    },
+    "cups-11-page": {
+      "en": { "up": ["Creativity", "Intuition", "Tender messages"], "rev": ["Emotional immaturity", "Insecurity", "Escapism"], "upText": "Like a fish leaping unexpectedly from a cup, a surprising message arrives. Stay open to playful ideas, gentle feelings and creative impulses.", "revText": "Hurt feelings or escapism may be getting in the way. Be honest about what you feel, even if it seems childish.", "question": "What creative impulse am I ignoring?" },
+      "zh-Hant": { "up": ["創意", "直覺", "溫柔的訊息"], "rev": ["情緒不成熟", "不安", "逃避現實"], "upText": "就像一條魚突然從杯子裡躍出，一個意想不到的訊息來了。對好玩的點子、細膩的情感和創作的衝動保持開放。", "revText": "受傷的情緒或逃避的心態，可能正擋住你。誠實面對自己的感受，就算它看起來有點孩子氣。", "question": "有什麼創作衝動，被我忽略了？" }
+    },
+    "cups-12-knight": {
+      "en": { "up": ["Romance", "Charm", "Following the heart"], "rev": ["Moodiness", "Unrealistic ideals", "Disappointment"], "upText": "The knight rides slowly, cup held out like an offering. Romance, invitations and creative proposals are on their way; follow your heart.", "revText": "The fairy tale is running ahead of the facts. Check whether the offer is as real as it sounds.", "question": "What am I being invited toward?" },
+      "zh-Hant": { "up": ["浪漫", "魅力", "追隨內心"], "rev": ["喜怒無常", "不切實際", "失望"], "upText": "騎士緩緩前行，雙手捧著聖杯，像在獻上禮物。浪漫的邂逅、各種邀約和創意提案即將到來；跟著你的心走吧。", "revText": "童話故事跑得比現實還快。先確認這份邀請，是不是真的像聽起來那麼美好。", "question": "我正被邀請走向哪裡？" }
+    },
+    "cups-13-queen": {
+      "en": { "up": ["Compassion", "Intuition", "Emotional depth"], "rev": ["Overwhelm", "Codependence", "Self-neglect"], "upText": "The Queen of Cups feels deeply and understands without words. Offer care, and trust what your intuition tells you.", "revText": "Absorbing everyone's emotions leaves little room for your own. Care for yourself as gently as you care for others.", "question": "Whose feelings am I carrying that aren't mine?" },
+      "zh-Hant": { "up": ["慈悲", "直覺", "情感深度"], "rev": ["不堪負荷", "依賴共生", "忽略自己"], "upText": "聖杯皇后感受細膩，不必多說就能懂你的心。付出關懷，也相信你的直覺。", "revText": "把每個人的情緒都往自己身上攬，自己的感受反而沒地方放。像照顧別人那樣，溫柔地照顧自己。", "question": "我扛著哪些其實不屬於我的情緒？" }
+    },
+    "cups-14-king": {
+      "en": { "up": ["Emotional balance", "Calm", "Diplomacy"], "rev": ["Suppression", "Coldness", "Manipulation"], "upText": "The King of Cups sits steady on a restless sea. He feels everything yet keeps his balance; lead with a calm heart.", "revText": "Bottling things up isn't the same as being calm. Unspoken feelings tend to leak out sideways.", "question": "How can I stay calm without shutting down?" },
+      "zh-Hant": { "up": ["情緒平衡", "沉著", "圓融"], "rev": ["壓抑", "冷漠", "操控"], "upText": "聖杯國王穩穩坐在波濤洶湧的海上。他什麼都感受得到，卻依然保持平衡；用一顆平靜的心去帶領他人。", "revText": "把情緒壓下來，不等於冷靜。沒說出口的感受，往往會從別的地方冒出來。", "question": "我要怎麼保持冷靜，又不把自己封閉起來？" }
+    },
+
+    "swords-01-ace": {
+      "en": { "up": ["Clarity", "Truth", "Breakthrough"], "rev": ["Confusion", "Misjudgement", "Harsh words"], "upText": "A blade rises through the clouds. A breakthrough idea cuts through confusion; speak the truth plainly.", "revText": "The sword cuts the wrong way: hasty conclusions, muddled thinking or words that wound. Sharpen the question first.", "question": "What truth have I been circling?" },
+      "zh-Hant": { "up": ["清晰", "真相", "突破"], "rev": ["混亂", "誤判", "言語傷人"], "upText": "一把劍穿破雲層，直指天際。一個突破性的想法劃開了迷霧；有話就直說吧。", "revText": "這一劍砍錯了方向：倉促下結論、思緒混亂，或說出傷人的話。先把問題想清楚。", "question": "有什麼真相，是我一直在繞圈子避開的？" }
+    },
+    "swords-02-two": {
+      "en": { "up": ["Indecision", "Stalemate", "Difficult choices"], "rev": ["Information overload", "Truth revealed", "Decision made"], "upText": "Blindfolded, with two swords crossed over the heart: a stalemate. You can't decide without seeing more, or feeling more.", "revText": "The blindfold is slipping. Hidden facts come out, or the pressure to choose becomes impossible to ignore.", "question": "What am I refusing to look at?" },
+      "zh-Hant": { "up": ["猶豫不決", "僵局", "艱難抉擇"], "rev": ["資訊過載", "真相揭露", "做出決定"], "upText": "蒙著雙眼，兩把劍交叉護在胸前：陷入了僵局。不看得更清楚、不感受得更深，你就無法做出決定。", "revText": "蒙眼布慢慢滑落。被隱瞞的事實浮上檯面，或是非做決定不可的壓力，已經大到無法忽視。", "question": "有什麼，是我一直不肯正眼去看的？" }
+    },
+    "swords-03-three": {
+      "en": { "up": ["Heartbreak", "Grief", "Painful truth"], "rev": ["Healing", "Forgiveness", "Releasing pain"], "upText": "Three swords pierce a heart beneath the rain. Sorrow, separation or a hard truth hurts, and naming the pain is the first step through it.", "revText": "The storm is passing. Old wounds are closing, slowly, as you let go of what hurt you.", "question": "What hurt am I ready to talk about?" },
+      "zh-Hant": { "up": ["心碎", "悲傷", "痛苦的真相"], "rev": ["療癒", "寬恕", "釋放痛苦"], "upText": "三把劍在雨中刺穿一顆心。悲傷、分離或殘酷的真相讓人心痛，而把這份痛說出來，是走過它的第一步。", "revText": "暴風雨正在過去。當你慢慢放下傷害你的事，舊傷口也一點一點在癒合。", "question": "哪一份傷痛，我已經準備好說出口了？" }
+    },
+    "swords-04-four": {
+      "en": { "up": ["Rest", "Recovery", "Contemplation"], "rev": ["Restlessness", "Burnout", "Returning"], "upText": "Swords laid aside, a knight lies still in quiet stone. After strain comes rest; take time to recover before the next battle.", "revText": "You may be resting too little, or too long. Listen to whether your body wants stillness or gentle movement.", "question": "What would real rest look like for me?" },
+      "zh-Hant": { "up": ["休息", "復原", "沉思"], "rev": ["坐立不安", "倦怠", "重新出發"], "upText": "劍放下了，騎士靜靜躺在石室裡。緊繃過後需要休息；在下一場戰鬥之前，給自己時間恢復。", "revText": "你可能休息得太少，也可能休息太久了。聽聽身體想要的是靜下來，還是輕輕動一動。", "question": "對我來說，真正的休息是什麼樣子？" }
+    },
+    "swords-05-five": {
+      "en": { "up": ["Conflict", "Hollow victory", "Tension"], "rev": ["Reconciliation", "Making amends", "Moving on"], "upText": "One side gathers up the swords while the other walks away defeated. You may win this fight and still lose something that matters more.", "revText": "The fight is over and the dust is settling. There's a chance now to make amends, or simply to walk away.", "question": "Is being right worth what it costs here?" },
+      "zh-Hant": { "up": ["衝突", "空洞的勝利", "緊張"], "rev": ["和解", "彌補", "放下過去"], "upText": "一方收起刀劍，另一方垂頭喪氣地離開。你也許贏了這一仗，卻輸掉了更重要的東西。", "revText": "戰鬥結束，塵埃落定。現在有機會彌補，也可以乾脆轉身走開。", "question": "在這件事上，爭個輸贏值得付出這些代價嗎？" }
+    },
+    "swords-06-six": {
+      "en": { "up": ["Transition", "Moving on", "Calmer waters"], "rev": ["Unfinished business", "Resistance", "Baggage"], "upText": "A boat carries its passengers across still water toward a quieter shore. Difficult times are being left behind, and calmer days lie ahead.", "revText": "The boat has stalled, or you've packed your old troubles along with you. Some things need settling before you can truly leave.", "question": "What am I bringing with me that I could leave behind?" },
+      "zh-Hant": { "up": ["過渡", "前行", "平靜的水域"], "rev": ["未了之事", "抗拒", "包袱"], "upText": "小船載著乘客，滑過平靜的水面，駛向更安寧的彼岸。艱難的日子正被拋在身後，平靜的生活就在前方。", "revText": "船停住了，或者你把舊煩惱也一起打包帶上了船。有些事得先處理好，你才能真正離開。", "question": "我身上帶著哪些東西，其實可以留下？" }
+    },
+    "swords-07-seven": {
+      "en": { "up": ["Strategy", "Secrecy", "Deception"], "rev": ["Coming clean", "Conscience", "Getting caught"], "upText": "Someone slips away carrying swords that aren't all theirs. Strategy and stealth are at play; make sure it isn't at someone's expense, including yours.", "revText": "Secrets are surfacing. It may be time to come clean, or to admit a plan isn't working.", "question": "Where am I being less than honest?" },
+      "zh-Hant": { "up": ["策略", "秘密", "欺瞞"], "rev": ["坦白", "良知", "被揭穿"], "upText": "有人悄悄溜走，帶走的劍不全是自己的。這裡有策略，也有暗中的盤算；確保沒有人因此吃虧——包括你自己。", "revText": "秘密漸漸浮上檯面。也許是時候坦白，或承認某個計畫行不通了。", "question": "我在哪些地方，對別人或對自己不夠誠實？" }
+    },
+    "swords-08-eight": {
+      "en": { "up": ["Restriction", "Self-doubt", "Feeling trapped"], "rev": ["Release", "New perspective", "Freedom"], "upText": "Bound and blindfolded among swords, yet the way out is open. Feeling trapped often comes from the story we tell ourselves.", "revText": "The ropes are loosening. You are starting to see a way out you couldn't see before.", "question": "What story is keeping me stuck?" },
+      "zh-Hant": { "up": ["受限", "自我懷疑", "困住"], "rev": ["釋放", "新視角", "自由"], "upText": "雙手被綁、雙眼被蒙，四周插滿了劍，出路卻一直都是開著的。覺得被困住，往往是因為我們對自己說的故事。", "revText": "繩子正在鬆開。你開始看見一條之前看不見的出路。", "question": "是哪一個故事，讓我困在原地？" }
+    },
+    "swords-09-nine": {
+      "en": { "up": ["Anxiety", "Worry", "Sleepless nights"], "rev": ["Hope", "Reaching out", "Fear easing"], "upText": "Awake in the dark with nine swords hanging overhead. Fears grow largest at night; share them, and they shrink.", "revText": "Morning is coming. The worst of the worry is easing, or ready to be faced with help.", "question": "Who could I tell about this worry?" },
+      "zh-Hant": { "up": ["焦慮", "憂慮", "失眠"], "rev": ["希望", "尋求幫助", "恐懼消退"], "upText": "深夜裡醒著，九把劍懸在頭頂上。恐懼總在夜裡被放到最大；說出來，它就會變小。", "revText": "天快亮了。最深的擔憂正在緩解，或者你已經準備好，在別人的陪伴下面對它。", "question": "這份擔心，我可以跟誰說？" }
+    },
+    "swords-10-ten": {
+      "en": { "up": ["Painful ending", "Rock bottom", "Release"], "rev": ["Recovery", "Survival", "Rising again"], "upText": "Ten swords mark the end of a hard chapter, but dawn is breaking on the horizon. It cannot get worse; from here, only recovery.", "revText": "You've survived the worst. Slowly, carefully, you're getting back on your feet.", "question": "What is this ending making room for?" },
+      "zh-Hant": { "up": ["痛苦的結束", "谷底", "解脫"], "rev": ["復原", "倖存", "重新站起"], "upText": "十把劍宣告一段艱難的日子結束了，但地平線上已經透出曙光。情況不會更糟了，接下來只會慢慢好轉。", "revText": "最糟的時候你已經撐過來了。慢慢來、小心地，你正在重新站起來。", "question": "這個結束，正在為什麼騰出空間？" }
+    },
+    "swords-11-page": {
+      "en": { "up": ["Curiosity", "New ideas", "Vigilance"], "rev": ["Gossip", "Scattered thoughts", "Defensiveness"], "upText": "Sword raised, the page watches the wind, eager to learn. Ask questions, gather facts and stay alert.", "revText": "Talk without substance, or sharp words used carelessly. Listen more than you speak.", "question": "What do I want to understand better?" },
+      "zh-Hant": { "up": ["好奇", "新想法", "警覺"], "rev": ["流言", "思緒紛亂", "防衛"], "upText": "侍者舉起寶劍，觀察著風向，渴望學習。多提問、多收集資訊，並保持警覺。", "revText": "話說得多卻言之無物，或是隨口說出尖酸的話。多聽，少說。", "question": "我想更了解的是什麼？" }
+    },
+    "swords-12-knight": {
+      "en": { "up": ["Ambition", "Decisive action", "Directness"], "rev": ["Rashness", "Aggression", "Thoughtlessness"], "upText": "The knight charges into the wind, sword first. When the plan is clear, quick and direct action breaks the deadlock.", "revText": "Speed without thought cuts the wrong people. Slow down and consider who's in your path.", "question": "Am I moving fast because it's right, or because waiting is hard?" },
+      "zh-Hant": { "up": ["抱負", "果斷行動", "直率"], "rev": ["草率", "咄咄逼人", "欠缺考慮"], "upText": "騎士迎著風衝鋒，劍鋒在前。只要計畫清楚，迅速又直接的行動就能打破僵局。", "revText": "衝得太快又不經思考，很容易傷到不該傷的人。放慢腳步，看看擋在路上的是誰。", "question": "我這麼急著行動，是因為這樣做才對，還是因為等不下去？" }
+    },
+    "swords-13-queen": {
+      "en": { "up": ["Clarity", "Independence", "Honest boundaries"], "rev": ["Coldness", "Bitterness", "Harsh judgement"], "upText": "The Queen of Swords sees clearly and speaks plainly. Experience has made her wise; set honest boundaries with a fair mind.", "revText": "Old hurt may be sharpening your judgement into cruelty. Clarity and kindness can share the same blade.", "question": "Where do I need to be both clear and kind?" },
+      "zh-Hant": { "up": ["清晰", "獨立", "誠實的界線"], "rev": ["冷漠", "怨懟", "嚴苛批判"], "upText": "寶劍皇后看事情透徹，說話直截了當。歷練讓她變得睿智；用公正的心，劃出誠實的界線。", "revText": "過去的傷，可能讓你的判斷變得尖刻無情。別忘了，清晰和仁慈可以同時存在。", "question": "在哪些事情上，我需要說得清楚，又保持溫柔？" }
+    },
+    "swords-14-king": {
+      "en": { "up": ["Intellect", "Authority", "Truth"], "rev": ["Rigidity", "Manipulation", "Abuse of power"], "upText": "Sword upright, the King of Swords rules by reason and principle. Make decisions with a clear head and explain them fairly.", "revText": "Intelligence can be used to dominate instead of serve. Watch for cold logic, or someone using words to control.", "question": "What principle do I want to decide by?" },
+      "zh-Hant": { "up": ["理智", "權威", "真理"], "rev": ["僵化", "操控", "濫用權力"], "upText": "寶劍國王手中的劍直指上方，以理性和原則治理一切。保持頭腦清醒地做決定，並公正地說明理由。", "revText": "聰明才智也可能被拿來壓制別人，而不是幫助別人。小心冷冰冰的邏輯，或有人用言語操控人心。", "question": "我想依照什麼原則來做決定？" }
+    },
+
+    "pentacles-01-ace": {
+      "en": { "up": ["Opportunity", "Prosperity", "New beginnings"], "rev": ["Missed chance", "Poor planning", "Instability"], "upText": "A golden coin is offered: a new job, an investment, a seed with real potential. Plant it with care.", "revText": "The opportunity may be less solid than it looks, or the groundwork isn't done yet. Don't commit before the soil is ready.", "question": "What seed is worth planting now?" },
+      "zh-Hant": { "up": ["機會", "繁榮", "新的開始"], "rev": ["錯失機會", "計畫不周", "不穩定"], "upText": "一枚金幣遞到你面前：一份新工作、一筆投資，或一顆真正有潛力的種子。好好把它種下。", "revText": "這個機會可能沒有看起來那麼穩當，或是基礎還沒打好。土壤還沒準備好之前，先別急著投入。", "question": "現在有哪顆種子，值得我種下？" }
+    },
+    "pentacles-02-two": {
+      "en": { "up": ["Balance", "Adaptability", "Juggling"], "rev": ["Overwhelm", "Disorganisation", "Dropped balls"], "upText": "Two coins dance in an endless loop while ships ride the waves. You're juggling a lot, and with a light touch you can keep it all moving.", "revText": "Too many things in the air. Something will drop unless you put a few of them down.", "question": "What can wait so that the rest can flow?" },
+      "zh-Hant": { "up": ["平衡", "適應", "兼顧"], "rev": ["不堪負荷", "混亂", "顧此失彼"], "upText": "兩枚錢幣在無盡的循環裡舞動，船隻隨著海浪起伏。你同時要兼顧很多事，只要保持輕巧，一切都能繼續運轉。", "revText": "手上拋接的東西太多了。不先放下幾樣，總會有東西掉下來。", "question": "哪些事可以先緩一緩，好讓其他事情順利進行？" }
+    },
+    "pentacles-03-three": {
+      "en": { "up": ["Teamwork", "Craftsmanship", "Collaboration"], "rev": ["Disorganisation", "Poor teamwork", "Mediocrity"], "upText": "A craftsman works on a great building while others review the plans. Skilled work shines brightest when talents come together.", "revText": "Roles are unclear, or someone isn't pulling their weight. Agree on the plan before building any further.", "question": "Whose skills could make this better?" },
+      "zh-Hant": { "up": ["團隊合作", "工藝", "協作"], "rev": ["混亂", "合作不佳", "平庸"], "upText": "工匠在宏偉的建築上埋頭工作，其他人則在一旁研究藍圖。當大家的專長匯聚在一起，好手藝才最能發光。", "revText": "分工不清楚，或是有人沒盡到自己的本分。先把計畫談好，再繼續往上蓋。", "question": "誰的專長，能讓這件事變得更好？" }
+    },
+    "pentacles-04-four": {
+      "en": { "up": ["Security", "Saving", "Control"], "rev": ["Greed", "Letting go", "Overspending"], "upText": "Holding tight to every coin, this card guards what was hard-won. Saving and stability are wise, as long as fear isn't holding the purse.", "revText": "Either gripping so tightly that nothing can grow, or spending without limits. Look for the middle ground.", "question": "What am I afraid of losing?" },
+      "zh-Hant": { "up": ["安全感", "儲蓄", "掌控"], "rev": ["貪婪", "放手", "揮霍"], "upText": "緊緊抓住每一枚錢幣，守護著得來不易的一切。存錢、求穩定都很明智，只要掌管荷包的不是恐懼。", "revText": "要嘛抓得太緊，讓什麼都長不出來；要嘛花錢毫無節制。試著找到中間的平衡。", "question": "我最害怕失去的是什麼？" }
+    },
+    "pentacles-05-five": {
+      "en": { "up": ["Hardship", "Scarcity", "Isolation"], "rev": ["Recovery", "Help arriving", "Hope"], "upText": "Like travellers in the snow passing a lit window, hard times can leave you feeling out in the cold. Help may be closer than it seems.", "revText": "The worst is passing. Doors are slowly opening again, and it's all right to walk through them.", "question": "Where could I ask for help?" },
+      "zh-Hant": { "up": ["困境", "匱乏", "孤立"], "rev": ["復原", "援助到來", "希望"], "upText": "就像在雪地裡走過一扇亮著燈的窗，日子難過時，你會覺得自己被關在寒冷的門外。但援手可能比你想的更近。", "revText": "最難熬的時候正在過去。門正慢慢重新打開，放心走進去吧。", "question": "我可以向誰尋求幫助？" }
+    },
+    "pentacles-06-six": {
+      "en": { "up": ["Generosity", "Charity", "Fair exchange"], "rev": ["Strings attached", "Debt", "Imbalance"], "upText": "Coins are weighed and shared with those in need. Giving and receiving in fair measure keeps everyone's dignity intact.", "revText": "A gift with hidden conditions, or a debt that keeps growing. Be clear about what is really being exchanged.", "question": "Am I giving and receiving in balance?" },
+      "zh-Hant": { "up": ["慷慨", "施予", "公平交換"], "rev": ["附帶條件", "債務", "失衡"], "upText": "錢幣經過秤量，分給需要的人。給予和接受都拿捏得公平，每個人的尊嚴才能被好好保全。", "revText": "附帶條件的禮物，或是越滾越大的債。先弄清楚，彼此交換的到底是什麼。", "question": "我的付出和收穫，是否平衡？" }
+    },
+    "pentacles-07-seven": {
+      "en": { "up": ["Patience", "Investment", "Long-term view"], "rev": ["Impatience", "Poor returns", "Wasted effort"], "upText": "The gardener pauses to study the slowly ripening crop. Long-term work is paying off; take stock before the next season.", "revText": "Lots of work, little harvest. It may be time to change how you're farming, not just to work harder.", "question": "Is this growing the way I hoped?" },
+      "zh-Hant": { "up": ["耐心", "投資", "長遠眼光"], "rev": ["急躁", "收穫不佳", "白費力氣"], "upText": "園丁停下手邊的工作，端詳慢慢成熟的作物。長期的耕耘開始有了回報；在下一季來臨前，好好盤點一下。", "revText": "做了很多，收成卻很少。也許該換個耕作的方法，而不只是更賣力。", "question": "這件事，有照著我期望的方向成長嗎？" }
+    },
+    "pentacles-08-eight": {
+      "en": { "up": ["Craftsmanship", "Diligence", "Mastery"], "rev": ["Perfectionism", "Boredom", "Cutting corners"], "upText": "Bent over the workbench, the apprentice shapes coin after coin. Skill grows through steady, focused practice; take pride in the details.", "revText": "Either obsessing over perfection or just going through the motions. Reconnect with why you started.", "question": "What craft am I quietly mastering?" },
+      "zh-Hant": { "up": ["工藝", "勤奮", "精通"], "rev": ["完美主義", "厭倦", "偷工減料"], "upText": "學徒彎著腰埋首在工作台前，一枚接著一枚地打造錢幣。技藝來自穩定而專注的練習；為每一個細節感到驕傲吧。", "revText": "不是過度追求完美，就是只在敷衍了事。回想一下，你當初為什麼開始。", "question": "我正在默默磨練哪一門手藝？" }
+    },
+    "pentacles-09-nine": {
+      "en": { "up": ["Independence", "Abundance", "Self-sufficiency"], "rev": ["Overwork", "Hollow luxury", "Dependence"], "upText": "In a lush garden, she enjoys what her own effort has built. Independence and refined comfort are well earned.", "revText": "Success that leaves no time to enjoy it, or comfort that feels lonely. Make room for both rest and company.", "question": "What has my hard work given me to enjoy?" },
+      "zh-Hant": { "up": ["獨立", "富足", "自給自足"], "rev": ["過勞", "空洞的奢華", "依賴"], "upText": "在繁花盛開的花園裡，她享受著靠自己雙手打造的一切。這份獨立和優雅的舒適，都是她應得的。", "revText": "成功了卻沒時間享受，生活舒適卻感到孤單。替休息和陪伴都留一點空間吧。", "question": "我的努力，帶給了我哪些值得享受的事物？" }
+    },
+    "pentacles-10-ten": {
+      "en": { "up": ["Legacy", "Wealth", "Family"], "rev": ["Family disputes", "Financial loss", "Broken traditions"], "upText": "Generations gather where the coins have been built up over time. Lasting wealth, family roots and a legacy that will outlive you.", "revText": "Inheritance, money or family expectations are causing friction. Talk about it openly before resentment sets in.", "question": "What do I want to leave behind?" },
+      "zh-Hant": { "up": ["傳承", "財富", "家族"], "rev": ["家族紛爭", "財務損失", "傳統斷裂"], "upText": "好幾代人齊聚一堂，守著多年累積下來的家業。長久的財富、家族的根，以及比你走得更遠的傳承。", "revText": "遺產、金錢或家人的期待，正在引發摩擦。趁心結還沒形成，把話攤開來說。", "question": "我想為後人留下什麼？" }
+    },
+    "pentacles-11-page": {
+      "en": { "up": ["Study", "Ambition", "New skills"], "rev": ["Procrastination", "Lack of progress", "Daydreaming"], "upText": "The page studies a single coin with total focus. A new course, skill or practical goal is beginning; start small and be consistent.", "revText": "Plans that never leave the notebook. A simple daily habit would turn the dream into progress.", "question": "What do I want to get good at?" },
+      "zh-Hant": { "up": ["學習", "抱負", "新技能"], "rev": ["拖延", "毫無進展", "空想"], "upText": "侍者全神貫注地研究手中的錢幣。一門新課程、一項新技能或一個實際的目標正要開始；從小處做起，持之以恆。", "revText": "計畫永遠只寫在筆記本上。養成一個簡單的每日習慣，夢想就會開始往前推進。", "question": "我想在哪方面變得更拿手？" }
+    },
+    "pentacles-12-knight": {
+      "en": { "up": ["Hard work", "Reliability", "Routine"], "rev": ["Stagnation", "Laziness", "Rigidity"], "upText": "The slowest knight is also the one who always arrives. Steady, dependable effort will get you where you're going.", "revText": "Routine has turned into a rut. Shake something up before steadiness becomes stuckness.", "question": "What small, steady step can I take today?" },
+      "zh-Hant": { "up": ["努力", "可靠", "規律"], "rev": ["停滯", "懶散", "僵化"], "upText": "走得最慢的騎士，往往也是一定會抵達的那一位。穩紮穩打、腳踏實地的努力，會帶你到達目的地。", "revText": "規律變成了一成不變。在穩定變成停滯之前，做點改變吧。", "question": "今天，我可以踏出哪一小步？" }
+    },
+    "pentacles-13-queen": {
+      "en": { "up": ["Nurturing", "Practicality", "Abundance"], "rev": ["Self-neglect", "Smothering", "Imbalance"], "upText": "The Queen of Pentacles makes a home warm and a budget work. Practical care, generosity and comfort flow from her.", "revText": "Looking after everyone and everything has put you last on the list. Put yourself back on it.", "question": "How can I care for myself as well as I care for others?" },
+      "zh-Hant": { "up": ["滋養", "務實", "富足"], "rev": ["忽略自己", "過度保護", "失衡"], "upText": "錢幣皇后既能把家打理得溫暖，也能把收支安排得妥當。務實的照顧、慷慨與安適，自然從她身上流露出來。", "revText": "忙著照顧所有人、所有事，結果把自己排到了最後。記得把自己放回清單上。", "question": "我要怎麼像照顧別人一樣，好好照顧自己？" }
+    },
+    "pentacles-14-king": {
+      "en": { "up": ["Wealth", "Security", "Stewardship"], "rev": ["Materialism", "Stubbornness", "Control"], "upText": "Surrounded by abundance, the King of Pentacles has built something solid and shares it generously. Lead with steady hands and a long view.", "revText": "Money or status is becoming the point. Watch for greed, stubbornness or measuring worth only in possessions.", "question": "What is my success for?" },
+      "zh-Hant": { "up": ["財富", "安穩", "管理"], "rev": ["物質主義", "固執", "控制"], "upText": "錢幣國王被豐盛圍繞，他打下了穩固的事業，也大方與人分享。用穩健的雙手和長遠的眼光去領導。", "revText": "金錢或地位，正在變成目的本身。小心貪心、固執，或只用擁有多少來衡量一個人的價值。", "question": "我追求成功，是為了什麼？" }
+    }
+  }
+}

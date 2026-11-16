@@ -1,0 +1,48 @@
+{
+  "skip": "Skip to content",
+  "tagline": "A tarot of tides and moonlight",
+  "langLabel": "Language",
+  "menu": "Menu",
+  "closeMenu": "Close menu",
+  "pinRail": "Keep menu open",
+  "unpinRail": "Collapse menu",
+  "home": "Home",
+  "sections": {
+    "major": "Major Arcana",
+    "wands": "Wands",
+    "cups": "Cups",
+    "swords": "Swords",
+    "pentacles": "Pentacles"
+  },
+  "elements": {
+    "fire": "Fire",
+    "water": "Water",
+    "air": "Air",
+    "earth": "Earth"
+  },
+  "intros": {
+    "major": "Twenty-two trumps tracing a journey from the Fool's first step to the World's completion. In a reading they mark the great forces and turning points.",
+    "wands": "Fire. Will, passion and the spark that sets things in motion.",
+    "cups": "Water. Feeling, love, intuition and the tides of the heart.",
+    "swords": "Air. Thought, truth and conflict: the mind's clarity and its edge.",
+    "pentacles": "Earth. Body, work, home and the slow growth of what lasts."
+  },
+  "cardCount": "{n} cards",
+  "homeHint": "Choose a path",
+  "majorArcana": "Major Arcana",
+  "minorArcana": "Minor Arcana",
+  "arcanum": "Arcanum {n}",
+  "upright": "Upright",
+  "reversed": "Reversed",
+  "reflect": "A question to reflect on",
+  "open": "Open {name}",
+  "close": "Close",
+  "prev": "Previous card",
+  "next": "Next card",
+  "position": "{i} of {n}",
+  "placeholderNote": "Placeholder meanings. The guidebook text will replace these once its use is cleared.",
+  "placeholderText": "The meaning of {name} will come from the deck's guidebook.",
+  "credit": "Artwork by EternalAteliers, used under license.",
+  "disclaimer": "For reflection and entertainment.",
+  "notFound": "This page could not be found."
+}

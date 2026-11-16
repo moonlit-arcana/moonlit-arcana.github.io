@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Moonlit Arcana</title>
+  <meta name="description" content="A tarot gallery of tides and moonlight.">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Alegreya+Sans:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div class="ambience" aria-hidden="true">
+    <div class="moon"><div class="moon-disc"></div></div>
+    <svg class="sigil" viewBox="-500 -500 1000 1000" id="sigil"></svg>
+    <div class="fog fog-a"></div>
+    <div class="fog fog-b"></div>
+    <div class="tide"></div>
+    <canvas id="motes"></canvas>
+    <div class="vignette"></div>
+  </div>
+
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header" id="site-header"></header>
+  <nav class="rail" id="rail"></nav>
+  <div class="rail-scrim" id="rail-scrim" hidden></div>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <dialog id="viewer"></dialog>
+</body>
+</html>

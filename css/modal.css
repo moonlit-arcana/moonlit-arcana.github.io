@@ -1,0 +1,100 @@
+/* Card pop-up (native <dialog>) */
+#viewer {
+  --dlg-w: min(1440px, calc(100vw - 48px));
+  --media-h: min(calc(100dvh - 50px), calc(var(--dlg-w) * .5 / .6166));
+  padding: 0; border: 1px solid var(--line-2); border-radius: 12px;
+  background: var(--surface); color: var(--ink);
+  width: var(--dlg-w); max-width: none; max-height: calc(100dvh - 48px); overflow: hidden;
+  box-shadow: 0 30px 120px rgba(0, 0, 0, .7), 0 0 0 1px rgba(240, 228, 205, .05);
+}
+#viewer::backdrop { background: rgba(3, 8, 8, .78); backdrop-filter: blur(6px); }
+#viewer[open] { animation: dlg-rise .45s cubic-bezier(.2, .8, .2, 1); }
+@keyframes dlg-rise { from { opacity: 0; transform: translateY(16px) scale(.98); } }
+
+.viewer { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); }
+
+/* ---------- art ---------- */
+.v-media {
+  position: relative; overflow: hidden; background: #050b0b;
+  height: var(--media-h); aspect-ratio: 825 / 1338;
+  touch-action: pan-y;
+}
+.v-art { position: absolute; inset: 0; }
+.v-art > img, .v-art > video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.v-video { opacity: 0; transition: opacity .8s; }
+.has-video .v-video { opacity: 1; }
+.v-motes { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+
+/* stand-in motion for Major Arcana without a video */
+.v-media.living .v-art { animation: kenburns 20s ease-in-out infinite alternate; transform-origin: 50% 35%; }
+@keyframes kenburns { from { transform: scale(1.01); } to { transform: scale(1.07) translate(-1%, -1%); } }
+.v-media.living::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 240, 215, .10) 45%, transparent 60%);
+  background-size: 250% 100%; animation: sweep 9s ease-in-out infinite;
+}
+@keyframes sweep { from { background-position: 120% 0; } to { background-position: -120% 0; } }
+
+.v-nav {
+  position: absolute; top: 50%; translate: 0 -50%; z-index: 2;
+  width: 46px; height: 46px; display: grid; place-items: center; border-radius: 50%;
+  border: 1px solid rgba(240, 228, 205, .25); background: rgba(6, 12, 12, .55); color: var(--fh);
+  cursor: pointer; opacity: .75; backdrop-filter: blur(4px); transition: opacity .2s, border-color .2s, background .2s;
+}
+.v-nav .icon { width: 22px; height: 22px; }
+.v-nav:hover, .v-nav:focus-visible { opacity: 1; border-color: var(--fh); background: rgba(6, 12, 12, .8); }
+.v-prev { left: 12px; }
+.v-next { right: 12px; }
+
+/* ---------- text ---------- */
+.v-info {
+  max-height: var(--media-h); overflow-y: auto; min-width: 0;
+  padding: clamp(36px, 6vh, 72px) clamp(28px, 4.5vw, 72px) clamp(28px, 4vh, 48px);
+  display: grid; gap: 20px; align-content: center;
+}
+.v-kicker { font-family: "Cinzel", "Noto Serif TC", Georgia, serif; color: var(--fh); letter-spacing: .2em; font-size: 14px; }
+.v-title {
+  margin: 0; font-family: var(--display); font-weight: 500; line-height: 1.1;
+  font-size: clamp(30px, 3.8vw, 58px); letter-spacing: var(--display-ls); text-wrap: balance;
+  color: var(--fh); text-shadow: 0 0 30px rgba(240, 228, 205, .15);
+}
+.v-arcana { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: -8px; }
+.v-kw h3 { margin: 0 0 8px; font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.chip { font-size: 14.5px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--fl); color: var(--fh); }
+.v-kw.rev .chip { border-color: var(--line-2); color: var(--muted); }
+.v-reading { margin: 10px 0 0; max-width: 58ch; font-size: clamp(16px, 1.2vw, 18.5px); line-height: 1.6; }
+.v-kw.rev .v-reading { color: #c4d2cd; }
+.v-question {
+  margin: 4px 0 0; padding: 12px 0 12px 18px; max-width: 58ch;
+  border-left: 2px solid var(--fl); display: grid; gap: 4px;
+  font-family: var(--display); font-size: clamp(17px, 1.35vw, 21px); line-height: 1.45; color: var(--fh);
+}
+.v-question[hidden] { display: none; }
+.v-q-label { font-family: var(--body); font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.v-note { margin: 0; padding-top: 12px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.v-pos { margin: 0; font-size: 13px; letter-spacing: .08em; color: var(--muted); }
+.v-pos:empty { display: none; }
+
+.v-close {
+  position: absolute; top: 14px; right: 14px; z-index: 3;
+  width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%;
+  border: 1px solid var(--line-2); background: rgba(8, 16, 15, .8); color: var(--ink); cursor: pointer;
+}
+.v-close .icon { width: 20px; height: 20px; }
+.v-close:hover { border-color: var(--fh); }
+
+/* ---------- phones: stack ---------- */
+@media (max-width: 719.98px) {
+  #viewer { --dlg-w: calc(100vw - 16px); max-height: calc(100dvh - 16px); overflow-y: auto; overscroll-behavior: contain; }
+  .viewer { grid-template-columns: minmax(0, 1fr); }
+  .v-media { height: auto; width: 100%; }
+  .v-info { max-height: none; overflow: visible; padding: 24px 20px 28px; gap: 16px; }
+  .v-close { position: fixed; top: 18px; right: 18px; }
+  .v-nav { width: 42px; height: 42px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #viewer[open], .v-media.living .v-art, .v-media.living::after { animation: none; }
+  .v-video { transition: none; }
+}

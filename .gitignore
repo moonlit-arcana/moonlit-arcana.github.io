@@ -1,0 +1,10 @@
+# Original seller files: never publish
+source-art/
+
+# Design references and mock-ups: kept locally, not part of the site
+reference/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
