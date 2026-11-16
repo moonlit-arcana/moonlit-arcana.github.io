@@ -4,6 +4,7 @@
   --avail-h: calc(100dvh - var(--header-h) - 96px);    /* room for captions + padding */
   min-height: calc(100dvh - var(--header-h));
   display: grid; place-items: center;
+  overflow-x: clip;   /* card halos must not widen the page on narrow screens */
   padding: 8px var(--gutter) 36px;
 }
 .home-stage {
