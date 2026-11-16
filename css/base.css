@@ -132,6 +132,30 @@ body:not([data-route="home"]) .sigil { opacity: .05; }   /* quieter behind card 
   position: absolute; inset: 0;
   background: radial-gradient(ellipse 80% 75% at 50% 45%, transparent 55%, rgba(2, 6, 6, .55) 100%);
 }
+
+/* Portrait / narrow screens: the glows above are sized in % of the width, so on a
+   tall phone they shrink to a sliver and the page reads darker than on desktop.
+   Widen them (and the fog patches) and soften the vignette to match desktop. */
+@media (max-aspect-ratio: 4/5), (max-width: 719.98px) {
+  .ambience {
+    background:
+      radial-gradient(150% 38% at 50% 12%, rgba(160, 215, 195, .17), transparent 70%),
+      radial-gradient(200% 45% at 50% 112%, rgba(30, 72, 66, .6), transparent 70%),
+      radial-gradient(110% 32% at 0% 58%, rgba(40, 90, 82, .16), transparent 70%),
+      linear-gradient(180deg, #10201f 0%, #0b1716 50%, #071010 100%);
+  }
+  .fog-a {
+    background:
+      radial-gradient(90% 18% at 22% 78%, rgba(170, 220, 200, .10), transparent 70%),
+      radial-gradient(75% 15% at 70% 55%, rgba(170, 220, 200, .07), transparent 70%);
+  }
+  .fog-b {
+    background:
+      radial-gradient(80% 16% at 80% 26%, rgba(170, 220, 200, .08), transparent 70%),
+      radial-gradient(95% 20% at 35% 40%, rgba(150, 205, 190, .06), transparent 70%);
+  }
+  .vignette { background: radial-gradient(ellipse 120% 85% at 50% 45%, transparent 60%, rgba(2, 6, 6, .38) 100%); }
+}
 .fog { position: absolute; inset: -25%; will-change: transform; }
 .fog-a {
   background:
